@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import Button from '@/components/Button';
 
-describe('home page', () => {
+describe('button component', () => {
   it('should handle render button not disable', () => {
     const { container } = render(
       <Button text={'button'} onclick={() => alert('hello world')} />

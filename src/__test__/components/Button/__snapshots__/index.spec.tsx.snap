@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`home page should handle render button disable 1`] = `
+exports[`button component should handle render button disable 1`] = `
 <div>
   <button
     disabled=""
@@ -10,7 +10,7 @@ exports[`home page should handle render button disable 1`] = `
 </div>
 `;
 
-exports[`home page should handle render button not disable 1`] = `
+exports[`button component should handle render button not disable 1`] = `
 <div>
   <button>
     button

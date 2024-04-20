@@ -10,9 +10,10 @@ const HomeView = () => {
   return (
     <div>
       <h1>add a user</h1>
-      <Input label="Name" />
-      <Input label="Email" />
+      <Input type="text" label="Name" />
+      <Input type="text" label="Email" />
       <Button text="submit" onclick={() => handlerFormClick()} />
+      <Input type="textarea" label="Description" />
       <hr />
       <h1>list of user</h1>
       <table>

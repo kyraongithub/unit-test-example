@@ -14,6 +14,7 @@ exports[`home page should handle render homepage 1`] = `
       </label>
       <input
         id="Name"
+        name="Name"
         type="text"
       />
     </div>
@@ -25,12 +26,24 @@ exports[`home page should handle render homepage 1`] = `
       </label>
       <input
         id="Email"
+        name="Email"
         type="text"
       />
     </div>
     <button>
       submit
     </button>
+    <div>
+      <label
+        for="Description"
+      >
+        Description
+      </label>
+      <textarea
+        id="Description"
+        name="Description"
+      />
+    </div>
     <hr />
     <h1>
       list of user
