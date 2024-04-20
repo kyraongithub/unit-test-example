@@ -19,6 +19,7 @@ const config: Config = {
   collectCoverageFrom: [
     '<rootDir>/src/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/pages/api/*.{js,jsx,ts,tsx}',
+    '!<rootDir>/src/**/*.type.{js,jsx,ts,tsx}',
     '!<rootDir>/src/pages/_app.tsx',
     '!<rootDir>/src/pages/_document.tsx',
   ],
